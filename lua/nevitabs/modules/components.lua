@@ -1,7 +1,7 @@
 local api = vim.api
 local fn = vim.fn
 local utils = require('nevitabs.modules.utils')
-local icon = require('neviraide-ui.icons.utils').icon
+local icon = require('stigmata.utils').icon
 local buftab_style = require('neviraide-ui').config.ui.buftab.style
 
 local M = {}

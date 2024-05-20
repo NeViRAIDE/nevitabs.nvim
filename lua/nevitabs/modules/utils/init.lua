@@ -1,7 +1,7 @@
 local api = vim.api
 local devicons_present, devicons = pcall(require, 'nvim-web-devicons')
 local fn = vim.fn
-local icon_plug = require('neviraide-ui.icons.utils').icon
+local icon_plug = require('stigmata.utils').icon
 
 local M = {}
 

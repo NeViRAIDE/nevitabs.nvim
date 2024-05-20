@@ -1,3 +1,5 @@
+require('nevitabs.whichkey')
+
 -- Executes a Lua file stored in the 'buftabline' cache location set in Neovim's global variables.
 dofile(vim.g.ntc .. 'nevitabs')
 
