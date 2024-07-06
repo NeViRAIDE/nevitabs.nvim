@@ -88,7 +88,7 @@ M.close_buffer = function(bufnr)
       vim.cmd('b' .. tmpbufnr .. ' | bw' .. bufnr)
       return
     else
-      vim.cmd('NeviraideUIDashboard')
+      vim.cmd('NeViRAIDEDashboard')
     end
 
     if not (bufhidden == 'delete') then vim.cmd('confirm bd' .. bufnr) end
@@ -107,7 +107,7 @@ M.closeAllBufs = function(action)
     M.close_buffer(buf)
   end
 
-  if action ~= 'closeTab' then vim.cmd('NeviraideUIDashboard') end
+  if action ~= 'closeTab' then vim.cmd('NeViRAIDEDashboard') end
 end
 
 -- closes all bufs except current one

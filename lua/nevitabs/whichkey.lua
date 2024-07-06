@@ -49,7 +49,7 @@ wk.register({
     function()
       local number_of_tabs = vim.fn.tabpagenr('$')
       if number_of_tabs > 1 then
-        require('neviraide-ui.utils.set_tab_name')()
+        require('nevitabs.set_tab_name')()
       end
     end,
     'Rename',
